@@ -1,0 +1,9 @@
+package: github.com/sk88ks/pmq
+import:
+- package: gopkg.in/redis.v5
+  version: ^5.0.2
+testImport:
+- package: github.com/smartystreets/goconvey
+  version: ^1.6.2
+  subpackages:
+  - convey
